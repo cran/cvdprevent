@@ -80,7 +80,7 @@ cvd_area_search(partial_area_name = 'foo', time_period_id = 17) |>
   gt::gt()
 
 ## -----------------------------------------------------------------------------
-return_list <- cvd_area_nested_subsystems(area_id = 7665) 
+return_list <- cvd_area_nested_subsystems(area_id = 8152) 
 return_list |> summary()
 
 ## -----------------------------------------------------------------------------
