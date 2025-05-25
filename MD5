@@ -1,13 +1,13 @@
-97c36839c04af9e9322fcec675496470 *DESCRIPTION
+e655d7cf28f3f471da301b436eef1c85 *DESCRIPTION
 d5b6b5edea4f06f86c81d42b97b4703a *LICENSE
 380a17f9f43cf890e96c5f395bd7bdbb *NAMESPACE
-9876bb7d24bda41b2f76ba8f038ce511 *NEWS.md
-7b5076806d0de76242c1ed0839ae0bf6 *R/cvd_api_functions.R
-dfd45486fec97395c69ca5a90ca02972 *README.md
-d5eeedd0b6ffe33e3b2002e42c483076 *build/vignette.rds
-9bddaf815cfaf5ed1e778ad619faf89b *inst/doc/using_cvdprevent.R
-2e361ccad630942269512f74ab822738 *inst/doc/using_cvdprevent.Rmd
-1e9b0b63bd1ba7a0744e7d2687affb3f *inst/doc/using_cvdprevent.html
+50508489a47537b95d69901687c58bd6 *NEWS.md
+5e749c4889b31c556155b03049506db0 *R/cvd_api_functions.R
+8813185880de87bd6a6f7ca4a4130f56 *README.md
+f79629e855cf44c3fd6a4bcb8f04a1f7 *build/vignette.rds
+eb68398b05f77b1d77e959c2df43e84c *inst/doc/using_cvdprevent.R
+78707e71656c51cba06d0a24aeeffb42 *inst/doc/using_cvdprevent.Rmd
+d4f71dd534196e25119e111f39b49fb0 *inst/doc/using_cvdprevent.html
 e32a043f6833adc8483a5e47746a06d0 *man/cvd_area_details.Rd
 3cc21597fe5d0fcdd679ba82919a6066 *man/cvd_area_flat_subsystems.Rd
 90a8a98c72925bf70a1bc4f84550bbf1 *man/cvd_area_list.Rd
@@ -29,7 +29,7 @@ b0aafddc30920e66f38213cc5bd1c32e *man/cvd_indicator_list.Rd
 1249e38f32bd6e1d5990ee6e154737bf *man/cvd_indicator_metric_list.Rd
 627faed0ded06863c078c5c3c7b47ec6 *man/cvd_indicator_metric_systemlevel_comparison.Rd
 88c80af873ee7cb67dc5b973dcd00eb8 *man/cvd_indicator_metric_timeseries.Rd
-df3b29dae8b09f71361880d3ba41e429 *man/cvd_indicator_nationalarea_metric_data.Rd
+58ad210ecd79ffd06cf7f530e991386f *man/cvd_indicator_nationalarea_metric_data.Rd
 4e93b59ca1f31cfb3ff93ab89bf5c745 *man/cvd_indicator_pathway_group.Rd
 fb8e9dd2f0d9d4797a13ea17befda747 *man/cvd_indicator_person_timeseries.Rd
 fcb98a6a689029c65d04d746904fa178 *man/cvd_indicator_priority_groups.Rd
@@ -42,4 +42,4 @@ cea05d223f005d1b10f68f423301f529 *man/cvd_time_period_system_levels.Rd
 5127aca14679e48565f6d7b3141fcc66 *man/figures/logo.png
 e31edb3f426d62c12b44eb35c1cf561f *tests/testthat.R
 3464c49253ecf978b8b09deba94c4f6c *tests/testthat/test-cvd_api_functions.R
-2e361ccad630942269512f74ab822738 *vignettes/using_cvdprevent.Rmd
+78707e71656c51cba06d0a24aeeffb42 *vignettes/using_cvdprevent.Rmd

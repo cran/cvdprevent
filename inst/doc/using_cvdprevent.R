@@ -198,8 +198,21 @@ cvd_indicator_raw_data(indicator_id = 7, time_period_id = 17, system_level_id = 
   gt::gt()
 
 ## -----------------------------------------------------------------------------
-cvd_indicator_nationalarea_metric_data(metric_id = 150, time_period_id = 17, area_id = 553) |> 
-  gt::gt()
+return_list <- cvd_indicator_nationalarea_metric_data(
+  metric_id = 150, 
+  time_period_id = 17, 
+  area_id = 553
+)
+
+return_list |> summary()
+
+## -----------------------------------------------------------------------------
+area_data <- return_list$area
+area_data |> gt::gt()
+
+## -----------------------------------------------------------------------------
+target_data <- return_list$target
+target_data |> gt::gt()
 
 ## -----------------------------------------------------------------------------
 cvd_indicator_priority_groups() |>
