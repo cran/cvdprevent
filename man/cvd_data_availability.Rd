@@ -5,10 +5,10 @@
 \title{Data availability}
 \usage{
 cvd_data_availability(
-  time_period_id = 1,
-  system_level_id = 1,
-  indicator_id,
-  metric_category_type_id
+  time_period_id,
+  system_level_id,
+  indicator_id = NULL,
+  metric_category_type_id = NULL
 )
 }
 \arguments{
@@ -34,8 +34,14 @@ Response:
 CVD Prevent API documentation:
 \href{https://bmchealthdocs.atlassian.net/wiki/spaces/CP/pages/317882369/CVDPREVENT+API+Documentation#\%2FdataAvailability}{Data availability}
 }
+\note{
+This function may take longer than 5 seconds to complete due to API response time.
+}
 \examples{
+\donttest{
 cvd_data_availability(time_period_id = 3, system_level_id = 5)
+}
+
 }
 \seealso{
 \code{\link[=cvd_external_resource]{cvd_external_resource()}}
