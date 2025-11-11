@@ -1,7 +1,7 @@
 Type: Package
 Package: cvdprevent
 Title: Access and Analyse Data from the 'CVD Prevent' API
-Version: 0.2.3
+Version: 0.2.4
 Authors@R: c(
     person("Craig", "Parylo", , "craig.parylo2@nhs.net", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0003-4297-7808")),
@@ -30,10 +30,10 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 NeedsCompilation: no
 RoxygenNote: 7.3.3
-Packaged: 2025-11-05 20:54:59 UTC; Craig.Parylo
+Packaged: 2025-11-11 10:59:34 UTC; Craig.Parylo
 Author: Craig Parylo [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0003-4297-7808>),
   Cardiovascular Disease Prevention Audit (CVDPREVENT) [ant] (Data
     provider and audit sponsor)
 Repository: CRAN
-Date/Publication: 2025-11-05 23:30:18 UTC
+Date/Publication: 2025-11-11 13:00:18 UTC
