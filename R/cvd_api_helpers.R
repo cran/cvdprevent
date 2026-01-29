@@ -149,3 +149,20 @@ safe_api_call <- function(
 
   list(success = TRUE, result = parsed)
 }
+
+# # Collect arguments for exported functions only
+# collect_exported_args <- function(pkg) {
+#   funs <- ls(paste0("package:", pkg)) # exported functions only
+
+#   tibble::tibble(
+#     function_name = funs,
+#     args = purrr::map(
+#       funs,
+#       ~ {
+#         obj <- get(.x, envir = asNamespace(pkg))
+#         if (is.function(obj)) names(formals(obj)) else character(0)
+#       }
+#     )
+#   ) %>%
+#     dplyr::filter(lengths(args) > 0)
+# }

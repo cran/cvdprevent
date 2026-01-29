@@ -226,31 +226,37 @@ returned_list <- cvd_indicator_data(
 returned_list |> summary()
 
 ## -----------------------------------------------------------------------------
-returned_list$indicator_metrics |> dplyr::glimpse()
+if ("indicator_metrics" %in% names(returned_list)) {
+  returned_list$indicator_metrics |> dplyr::glimpse()
+}
 
 ## -----------------------------------------------------------------------------
-returned_list$area_data |>
-  dplyr::filter(MetricCategoryTypeName == "Sex") |>
-  dplyr::select(
-    AreaID,
-    CategoryAttribute,
-    Value,
-    LowerConfidenceLimit,
-    UpperConfidenceLimit
-  ) |>
-  gt::gt()
+if ("area_data" %in% names(returned_list)) {
+  returned_list$area_data |>
+    dplyr::filter(MetricCategoryTypeName == "Sex") |>
+    dplyr::select(
+      AreaID,
+      CategoryAttribute,
+      Value,
+      LowerConfidenceLimit,
+      UpperConfidenceLimit
+    ) |>
+    gt::gt()
+}
 
 ## -----------------------------------------------------------------------------
-returned_list$national_data |>
-  dplyr::filter(MetricCategoryTypeName == "Sex") |>
-  dplyr::select(
-    AreaID,
-    CategoryAttribute,
-    Value,
-    LowerConfidenceLimit,
-    UpperConfidenceLimit
-  ) |>
-  gt::gt()
+if ("national_data" %in% names(returned_list)) {
+  returned_list$national_data |>
+    dplyr::filter(MetricCategoryTypeName == "Sex") |>
+    dplyr::select(
+      AreaID,
+      CategoryAttribute,
+      Value,
+      LowerConfidenceLimit,
+      UpperConfidenceLimit
+    ) |>
+    gt::gt()
+}
 
 ## -----------------------------------------------------------------------------
 cvd_indicator_raw_data(
